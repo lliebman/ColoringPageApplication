@@ -52,7 +52,6 @@ public class Frame extends JFrame {
         JButton browseButton = new JButton("Browse");
         browseButton.addActionListener(this::browseFiles);
 
-
         JButton goButton = new JButton("Convert");
         goButton.addActionListener(evt -> {
             try {
@@ -80,7 +79,6 @@ public class Frame extends JFrame {
         bottomPanel.setLayout(new FlowLayout());
         JButton saveButton = new JButton("Save As");
         saveButton.addActionListener(this::saveLineImage);
-
         bottomPanel.add(saveButton);
     }
 
